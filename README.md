@@ -33,7 +33,7 @@ Every cograph has unique modular decomposition and  is defined by the properties
 
 ### Python implementation:
 
-Github: https://github.com/MariannaSpyrakou/Cograph_Modular_Decomposition
+Github: <p><a href="https://github.com/MariannaSpyrakou/Cograph_Modular_Decomposition"> https://github.com/MariannaSpyrakou/Cograph_Modular_Decomposition </a></p> 
 
 
 Given a graph in sage structure or an adjacency list of the graph, returns the modular decomposition tree (cotree), if the input graph is cograph. 
