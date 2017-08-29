@@ -46,8 +46,8 @@ Given a graph in sage structure or an adjacency list of the graph, returns the m
 
 #### Functions included:
 
-   * Cograph_modular_decomposition: if the input graph is a cograph, then construct its cotree by adding incrementally one by one its nodes. When all nodes are added the modular decomposition tree is returned. The algorithm is incremental: vertices with its adjacencies are added one by one, and the data built so far is reused, so that each vertex addition only takes \\(O(deg(x))\\) operations, where \\(deg(x)\\) is the degree of the node inserted. Hence the overall operations are  \\(O( \left| V \right| + \left| E \right| )\\). 
-   * Naive Cograph_recognition: (for testing purposes only) contains 3 functions that test if the input graph is a cograph, by searching if there is a P4 path on any induced subgraph on 4 vertices.
+   * __Cograph_modular_decomposition__: if the input graph is a cograph, then construct its cotree by adding incrementally one by one its nodes. When all nodes are added the modular decomposition tree is returned. The algorithm is incremental: vertices with its adjacencies are added one by one, and the data built so far is reused, so that each vertex addition only takes \\(O(deg(x))\\) operations, where \\(deg(x)\\) is the degree of the node inserted. Hence the overall operations are  \\(O( \left| V \right| + \left| E \right| )\\). 
+   * __Naive Cograph_recognition__: (for testing purposes only) contains 3 functions that test if the input graph is a cograph, by searching if there is a P4 path on any induced subgraph on 4 vertices.
 
 
 For the correctness of the code, the code was tested on all cographs with  \\(n=3,...,16\\) nodes using the output of an efficient generator for cographs.
