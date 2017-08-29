@@ -57,6 +57,7 @@ Given a graph in sage structure or an adjacency list of the graph, returns the m
    * __Naive Cograph_recognition__: (for testing purposes only) contains 3 functions that test if the input graph is a cograph, by searching if there is a \\(P_4\\) path on any induced subgraph on 4 vertices.
 
 
+
 For the correctness of the code, the code was tested on all cographs with  \\(n\leq 16\\) nodes using the output of an efficient generator for cographs.
 
 
