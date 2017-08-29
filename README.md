@@ -1,3 +1,9 @@
+<head>
+    <script type="text/javascript"
+            src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+</head>
+
 # Modular Decomposition of graphs and digraphs
 
 ### GSoC 2017,  SageMath
