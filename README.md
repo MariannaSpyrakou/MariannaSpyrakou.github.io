@@ -60,7 +60,7 @@ Given the number of nodes n, generates all cotrees that correspond to all cograp
 
 
 ### Python implementation:
-Github: [a link](https://github.com/MariannaSpyrakou/Cograph_generator)
+Github: [https://github.com/MariannaSpyrakou/Cograph_generator](https://github.com/MariannaSpyrakou/Cograph_generator)
 
 
 
